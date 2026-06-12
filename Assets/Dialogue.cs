@@ -17,22 +17,28 @@ public class Dialogue : MonoBehaviour
     public VerticalLayoutGroup buttonsLayout;
     public GameObject ButtonPrefab;
     public DialogueTree[] lines;
+    public int NPCID;
     public float textSpeed;
-    private int index;
+    private int myIndex;
+    private GameManager gameManager;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartDialogue();
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+        //TODO move vvvv
+        NPCID = 10;
+        StartDialogue(0);
+        //TODO move ^^^^
     }
 
     // Display the DialoguePanel and refresh back to clear 
-    public void StartDialogue()
+    public void StartDialogue(int index)
     {
         gameObject.SetActive(true);
         textComponent.text = string.Empty;
-        index = 0;
+        myIndex = 0;
         NextLine(index);
         InputSystem.actions.Disable();
     }
@@ -40,7 +46,7 @@ public class Dialogue : MonoBehaviour
     // Type each line letter by letter 
     IEnumerator TypeLine()
     {
-        foreach (char c in lines[index].Line.ToCharArray())
+        foreach (char c in lines[myIndex].Line.ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
@@ -50,7 +56,7 @@ public class Dialogue : MonoBehaviour
     public void NextButtonPressed(int i)
     {
         // Line of text has finnished typing
-        if (textComponent.text == lines[index].Line)
+        if (textComponent.text == lines[myIndex].Line)
         {
             NextLine (i);
         }
@@ -58,16 +64,16 @@ public class Dialogue : MonoBehaviour
         else
         {
             StopAllCoroutines();
-            textComponent.text = lines[index].Line;
+            textComponent.text = lines[myIndex].Line;
         }
     }
 
     void NextLine(int i)
     {
         // The current line of text is not an end line (Terminator / end of array)
-        if (index < lines.Length - 1 && !lines[index].Terminator)
+        if (myIndex < lines.Length - 1 && !lines[myIndex].Terminator)
         {
-            index = i;
+            myIndex = i;
             // Clear the panel and remove any buttons
             textComponent.text = string.Empty;
             foreach (Transform child in buttonsLayout.transform)
@@ -77,28 +83,30 @@ public class Dialogue : MonoBehaviour
 
             StartCoroutine (TypeLine());
             // Create buttons to take the dialogue to the index specified 
-            if (lines[index].Choises.Length == 0)
+            if (lines[myIndex].Choises.Length == 0)
             {
                 GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
-                string Text = lines[index].Terminator || !(index < lines.Length - 1) ? "Close" : "Next";
+                string Text = lines[myIndex].Terminator || !(myIndex < lines.Length - 1) ? "Close" : "Next";
                 choiseButton.GetComponentInChildren<TMP_Text>().text = Text;
-                choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index + 1));
+                choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(myIndex + 1));
+                choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(int.Parse(NPCID.ToString() + myIndex.ToString())));
 
             }
             else
             {
                 int k = 0;
-                foreach (int j in lines[index].NextLines)
+                foreach (int j in lines[myIndex].NextLines)
                 {
                     GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
-                    choiseButton.GetComponentInChildren<TMP_Text>().text = lines[index].Choises[k++];
+                    choiseButton.GetComponentInChildren<TMP_Text>().text = lines[myIndex].Choises[k++];
                     choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(j));
+                    choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(int.Parse(NPCID.ToString() + myIndex.ToString())));
                 }
             }
         }
         else
         {
-            index = 0;
+            myIndex = 0;
             gameObject.SetActive(false);
             InputSystem.actions.Enable();
         }

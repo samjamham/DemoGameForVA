@@ -4,17 +4,16 @@ using dialoguetree;
 
 public class NPC : MonoBehaviour, Iinteractable
 {
-    [SerializeField]
-    private bool CanInteract;
-    [SerializeField]
-    //private string[] MyLines;
-    private DialogueTree[] MyLines;
-    [SerializeField]
-    GameObject Dialogbox;
+    [SerializeField] protected bool CanInteract;
+    //[SerializeField] protected string[] MyLines;
+    [SerializeField] protected DialogueTree[] MyLines;
+    [SerializeField] protected GameObject Dialogbox;
+    [SerializeField] protected int ID;
+    protected GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -27,11 +26,12 @@ public class NPC : MonoBehaviour, Iinteractable
         return CanInteract;
     }
 
-    public void interact()
+    virtual public void interact()
     {
         Debug.Log($"Blleeehhhh im an {this.name}!");
         Dialogbox.GetComponent<Dialogue>().lines = MyLines;
-        Dialogbox.GetComponent<Dialogue>().StartDialogue();
+        Dialogbox.GetComponent<Dialogue>().NPCID = ID;
+        Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
         return;
     }
 }

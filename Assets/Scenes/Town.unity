@@ -592,6 +592,7 @@ MonoBehaviour:
     Choises: []
     NextLines: 
   Dialogbox: {fileID: 1892936097}
+  ID: 12
 --- !u!50 &508365042
 Rigidbody2D:
   serializedVersion: 5
@@ -1073,6 +1074,50 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &884701240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884701242}
+  - component: {fileID: 884701241}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &884701241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884701240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddffdc7c9511ee499d94a5ca72c0821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!4 &884701242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884701240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.40533, y: 0.16484, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135272376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,6 +1804,7 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
     NextLines: 
+  NPCID: 0
   textSpeed: 0.03
 --- !u!224 &1937156525 stripped
 RectTransform:
@@ -2041,7 +2087,7 @@ GameObject:
   - component: {fileID: 2069059172}
   - component: {fileID: 2069059171}
   - component: {fileID: 2069059170}
-  - component: {fileID: 2069059174}
+  - component: {fileID: 2069059175}
   m_Layer: 0
   m_Name: NPC1
   m_TagString: NPC
@@ -2196,7 +2242,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2069059174
+--- !u!114 &2069059175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2205,9 +2251,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2069059169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ecd7ec8d1807dc4fb22944f5c4ecd88, type: 3}
+  m_Script: {fileID: 11500000, guid: a730675517fa927449e58e611349df5a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_Red
   CanInteract: 1
   MyLines:
   - Line: Hello will you help me find my Cat? She's gone missing :(
@@ -2224,7 +2270,12 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
     NextLines: 
+  - Line: Have you found my cat yet?
+    Terminator: 1
+    Choises: []
+    NextLines: 
   Dialogbox: {fileID: 1892936097}
+  ID: 11
 --- !u!1001 &3301076890528730640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2330,6 +2381,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 884701242}
   - {fileID: 519420032}
   - {fileID: 1851060068}
   - {fileID: 619394802}
