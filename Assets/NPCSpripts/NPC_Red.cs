@@ -6,10 +6,9 @@ public class NPC_Red : NPC
     {
         Dialogbox.GetComponent<Dialogue>().NPCID = ID;
         Dialogbox.GetComponent<Dialogue>().lines = MyLines;
-        if (!gameManager.GetHeardClip(111))
+        if (!gameManager.GetHeardClip("11_1"))
         {
             Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
-            //gameManager.AddHeardClip(1);
         }
         else
         {

@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private GameManager Instance;
-    public int[] AudioClipsHeard { get; private set; }
+    public string[] AudioClipsHeard { get; private set; }
 
 
     private void Awake()
@@ -15,28 +15,28 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            AudioClipsHeard = new int[1] { 0 };
+            AudioClipsHeard = new string[1] { "0_0" };
         }
         else
         {
             Destroy(gameObject);
         }
     }
-    public void AddHeardClip(int IDin)
+    public void AddHeardClip(string IDin)
     {
         if (AudioClipsHeard.Contains(IDin))
             return;
         else
         {
-            var list = new List<int>(AudioClipsHeard);
+            var list = new List<string>(AudioClipsHeard);
             list.Add(IDin);
 
             AudioClipsHeard = list.ToArray();
         }
     }
-    public bool GetHeardClip(int IDin)
+    public bool GetHeardClip(string IDin)
     {
-        foreach (int myIDs in AudioClipsHeard)
+        foreach (string myIDs in AudioClipsHeard)
         {
             if (IDin == myIDs)
                 return true;
