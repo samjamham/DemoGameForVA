@@ -6,7 +6,7 @@ public class VoiceLinePlayer : MonoBehaviour
     [SerializeField] private VoiceLineList voiceLineList;
     [SerializeField] private AudioSource audioSource;
 
-    void Start()
+    void Awake()
     {
         voiceLineList.AllClips = Resources.LoadAll<AudioClip>("VoiceLines");
     }
