@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            AudioClipsHeard = new string[1] { "0_0" };
         }
         else
         {
@@ -24,6 +23,10 @@ public class GameManager : MonoBehaviour
     }
     public void AddHeardClip(string IDin)
     {
+        if (AudioClipsHeard == null)
+        {
+            AudioClipsHeard = new string[1] { IDin };
+        }
         if (AudioClipsHeard.Contains(IDin))
             return;
         else

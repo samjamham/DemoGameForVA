@@ -95,8 +95,8 @@ public class Dialogue : MonoBehaviour
                 /*
                  * GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);                
                  * choiseButton.GetComponentInChildren<TMP_Text>().text = Text;
-                 * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(myIndex + 1));
                  * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(ToString() + "." + myIndex.ToString()));
+                 * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(myIndex + 1));
                  */
 
             }
@@ -111,8 +111,8 @@ public class Dialogue : MonoBehaviour
                     /*
                      * GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
                      * choiseButton.GetComponentInChildren<TMP_Text>().text = lines[myIndex].Choises[k++];
-                     * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(j));
                      * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "." + myIndex.ToString()));
+                     * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(j));                     
                      */
                 }
             }
@@ -130,7 +130,7 @@ public class Dialogue : MonoBehaviour
     {
         GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
         choiseButton.GetComponentInChildren<TMP_Text>().text = text;
+        choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString()));
         choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index));
-        choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "." + myIndex.ToString()));
     }
 }
