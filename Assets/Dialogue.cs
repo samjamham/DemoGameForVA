@@ -60,8 +60,10 @@ public class Dialogue : MonoBehaviour
         // Line of text has finnished typing
         if (textComponent.text == lines[myIndex].Line)
         {
-            NextLine (i);
+            gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString(), textComponent.text);
             VLPlayer.StopClip();
+            NextLine (i);
+
         }
         // Line of text has not finished typing
         else
@@ -116,7 +118,7 @@ public class Dialogue : MonoBehaviour
     {
         GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform); //create button from a prefab as a child of the layout group
         choiseButton.GetComponentInChildren<TMP_Text>().text = text;
-        choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString()));
+        //choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString()));
         choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index));
     }
 }

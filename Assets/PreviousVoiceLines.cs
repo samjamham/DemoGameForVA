@@ -16,12 +16,14 @@ public class PreviousVoiceLines : MonoBehaviour
         {
             return;
         }
+        int i = 0;
         foreach (string clips in GameManager.AudioClipsHeard)
         {
             GameObject ContentItem = GameObject.Instantiate(ContentPrefab, SelectionLayout.transform);
-            ContentItem.GetComponentInChildren<TMP_Text>().text = clips;
+            ContentItem.GetComponentInChildren<TMP_Text>().text = GameManager.DialogueLineSeen[i];
             ContentItem.GetComponentInChildren<Button>().onClick.AddListener(() => VLPlayer.StopClip());
             ContentItem.GetComponentInChildren<Button>().onClick.AddListener(() => VLPlayer.PlayClip(clips));
+            i++;
         }
     }
     private void OnDisable()

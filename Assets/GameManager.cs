@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     private GameManager Instance;
     public string[] AudioClipsHeard { get; private set; }
+    public string[] DialogueLineSeen { get; private set; }
 
 
     private void Awake()
@@ -21,20 +22,25 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void AddHeardClip(string IDin)
+    public void AddHeardClip(string IDin, string DialogueLine)
     {
         if (AudioClipsHeard == null)
         {
             AudioClipsHeard = new string[1] { IDin };
+            DialogueLineSeen = new string[1] { DialogueLine };
         }
         if (AudioClipsHeard.Contains(IDin))
             return;
         else
         {
+            //messy
             var list = new List<string>(AudioClipsHeard);
             list.Add(IDin);
-
             AudioClipsHeard = list.ToArray();
+
+            var list2 = new List<string>(DialogueLineSeen);
+            list2.Add(DialogueLine);
+            DialogueLineSeen = list2.ToArray();
         }
     }
     public bool GetHeardClip(string IDin)
