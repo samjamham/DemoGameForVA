@@ -74,61 +74,47 @@ public class Dialogue : MonoBehaviour
     void NextLine(int i)
     {
         // The current line of text is not an end line (Terminator / end of array)
-        if (myIndex < lines.Length - 1 && !lines[myIndex].Terminator)
-        {
-            myIndex = i;
-            // Clear the panel and remove any buttons
-            textComponent.text = string.Empty;
-            foreach (Transform child in buttonsLayout.transform)
-            {
-                Destroy(child.gameObject);
-            }
-
-            StartCoroutine (TypeLine());
-            VLPlayer.PlayClip(NPCID.ToString() + "_" + i.ToString());
-            // Create buttons to take the dialogue to the index specified 
-            if (lines[myIndex].Choises.Length == 0)
-            {
-                string Text = lines[myIndex].Terminator || !(myIndex < lines.Length - 1) ? "Close" : "Next";
-                createChoiceButtons(Text, myIndex +1);
-                //TODO Remove Below, only here if something breaks in future 
-                /*
-                 * GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);                
-                 * choiseButton.GetComponentInChildren<TMP_Text>().text = Text;
-                 * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(ToString() + "." + myIndex.ToString()));
-                 * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(myIndex + 1));
-                 */
-
-            }
-            else
-            {
-                int k = 0;
-                foreach (int j in lines[myIndex].NextLines)
-                {
-                    string Text = lines[myIndex].Choises[k++];
-                    createChoiceButtons(Text, j);
-                    //TODO Remove Below, only here if something breaks in future 
-                    /*
-                     * GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
-                     * choiseButton.GetComponentInChildren<TMP_Text>().text = lines[myIndex].Choises[k++];
-                     * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "." + myIndex.ToString()));
-                     * choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(j));                     
-                     */
-                }
-            }
-        }
-        else
+        if (!(myIndex < lines.Length - 1 && !lines[myIndex].Terminator))
         {
             myIndex = 0;
             gameObject.SetActive(false);
             InputSystem.actions.Enable();
+            return;            
+        }
+
+        myIndex = i;
+        // Clear the panel and remove any buttons
+        textComponent.text = string.Empty;
+        foreach (Transform child in buttonsLayout.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        StartCoroutine(TypeLine());
+        VLPlayer.PlayClip(NPCID.ToString() + "_" + i.ToString());
+
+        // Create buttons to take the dialogue to the index specified 
+        if (lines[myIndex].Choises.Length == 0) //default option
+        {
+            string Text = lines[myIndex].Terminator || !(myIndex < lines.Length - 1) ? "Close" : "Next";
+            createChoiceButtons(Text, myIndex + 1);
+        }
+        else
+        {
+            //create a button for each option
+            int k = 0;
+            foreach (int j in lines[myIndex].NextLines)
+            {
+                string Text = lines[myIndex].Choises[k++];
+                createChoiceButtons(Text, j);
+            }
         }
         return;
     }
 
     void createChoiceButtons(string text, int index)
     {
-        GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform);
+        GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform); //create button from a prefab as a child of the layout group
         choiseButton.GetComponentInChildren<TMP_Text>().text = text;
         choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString()));
         choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index));

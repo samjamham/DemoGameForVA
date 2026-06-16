@@ -22,7 +22,6 @@ public class PreviousVoiceLines : MonoBehaviour
             ContentItem.GetComponentInChildren<TMP_Text>().text = clips;
             ContentItem.GetComponentInChildren<Button>().onClick.AddListener(() => VLPlayer.StopClip());
             ContentItem.GetComponentInChildren<Button>().onClick.AddListener(() => VLPlayer.PlayClip(clips));
-
         }
     }
     private void OnDisable()
