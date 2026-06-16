@@ -1475,7 +1475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -100.00006}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: -199.99991, y: -150.00006}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1186774553
@@ -2187,6 +2187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   UIelement: {fileID: 1876826507}
+  VLPlayer: {fileID: 2112925330}
 --- !u!1 &1487125299
 GameObject:
   m_ObjectHideFlags: 0
