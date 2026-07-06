@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 50e02709024751348a4c0afb8e35bff6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5019879285249949928
+    second: Molly_004_FruitVendor_0
+  - first:
+      213: 5829787880807133904
+    second: Molly_004_FruitVendor_1
+  - first:
+      213: 3271725285956879151
+    second: Molly_004_FruitVendor_2
+  - first:
+      213: 8258886061738919446
+    second: Molly_004_FruitVendor_3
+  - first:
+      213: -7141958126146486621
+    second: Molly_004_FruitVendor_4
+  - first:
+      213: 4335995435595089011
+    second: Molly_004_FruitVendor_5
+  - first:
+      213: 3408181134808706645
+    second: Molly_004_FruitVendor_6
+  - first:
+      213: 2442874612895863998
+    second: Molly_004_FruitVendor_7
+  - first:
+      213: 7031672679948758192
+    second: Molly_004_FruitVendor_8
+  - first:
+      213: -6297522520947330997
+    second: Molly_004_FruitVendor_9
+  - first:
+      213: -3712190000031686616
+    second: Molly_004_FruitVendor_10
+  - first:
+      213: -4811806455692182104
+    second: Molly_004_FruitVendor_11
+  - first:
+      213: -3527641908477067978
+    second: Molly_004_FruitVendor_12
+  - first:
+      213: 3455440084617797398
+    second: Molly_004_FruitVendor_13
+  - first:
+      213: -8583536915746941657
+    second: Molly_004_FruitVendor_14
+  - first:
+      213: 1871707788668984184
+    second: Molly_004_FruitVendor_15
+  - first:
+      213: -7251740945709666456
+    second: Molly_004_FruitVendor_16
+  - first:
+      213: -8288499991922573650
+    second: Molly_004_FruitVendor_17
+  - first:
+      213: 3865084974040284328
+    second: Molly_004_FruitVendor_18
+  - first:
+      213: 8947056570633284824
+    second: Molly_004_FruitVendor_19
+  - first:
+      213: -3349744278822193105
+    second: Molly_004_FruitVendor_20
+  - first:
+      213: -6206698891747378586
+    second: Molly_004_FruitVendor_21
+  - first:
+      213: 6769096527754191275
+    second: Molly_004_FruitVendor_22
+  - first:
+      213: 4544191014854184923
+    second: Molly_004_FruitVendor_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fb553f26ec55ab0800000000000000
+      internalID: -5019879285249949928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2f267a03197e050800000000000000
+      internalID: 5829787880807133904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f238f1030d0876d20800000000000000
+      internalID: 3271725285956879151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_3
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6168f5e9d157d9270800000000000000
+      internalID: 8258886061738919446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_4
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aef25a8ceaa2ec90800000000000000
+      internalID: -7141958126146486621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_5
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3744c5620ec8c2c30800000000000000
+      internalID: 4335995435595089011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_6
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 798
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ee57e4faa4c4f20800000000000000
+      internalID: 3408181134808706645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45a7c7485d6e120800000000000000
+      internalID: 2442874612895863998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc2a290c05859160800000000000000
+      internalID: 7031672679948758192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4079e502a4ba98a0800000000000000
+      internalID: -6297522520947330997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_10
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820aa5decd6ab7cc0800000000000000
+      internalID: -3712190000031686616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_11
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad3988c587093db0800000000000000
+      internalID: -4811806455692182104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_12
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d717edf5c4b0fc0800000000000000
+      internalID: -3527641908477067978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_13
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 532
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f1a42037034ff20800000000000000
+      internalID: 3455440084617797398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725937417a621e880800000000000000
+      internalID: -8583536915746941657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b52fa2154a9f910800000000000000
+      internalID: 1871707788668984184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_16
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fe1dff704ac5b90800000000000000
+      internalID: -7251740945709666456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_17
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae70a4fb2559fc80800000000000000
+      internalID: -8288499991922573650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_18
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acfe584e4a83a530800000000000000
+      internalID: 3865084974040284328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_19
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcebe52c845a2c70800000000000000
+      internalID: 8947056570633284824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_20
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 266
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28f76c73515381d0800000000000000
+      internalID: -3349744278822193105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39983f8e64642644e950f07eadc395ff
+      internalID: -6206698891747378586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60eaaa054f5cd8418922be6508e7af9
+      internalID: 6769096527754191275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_004_FruitVendor_23
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 295
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b7af9ed3604b44592f33e893b74fdd
+      internalID: 4544191014854184923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5d87549a77e89b45985b8b781d57c38
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":295.0,"y":260.0},"gridSpriteOffset":{"x":0.0,"y":6.0},"gridSpritePadding":{"x":0.0,"y":6.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Molly_004_FruitVendor_0: -5019879285249949928
+      Molly_004_FruitVendor_1: 5829787880807133904
+      Molly_004_FruitVendor_10: -3712190000031686616
+      Molly_004_FruitVendor_11: -4811806455692182104
+      Molly_004_FruitVendor_12: -3527641908477067978
+      Molly_004_FruitVendor_13: 3455440084617797398
+      Molly_004_FruitVendor_14: -8583536915746941657
+      Molly_004_FruitVendor_15: 1871707788668984184
+      Molly_004_FruitVendor_16: -7251740945709666456
+      Molly_004_FruitVendor_17: -8288499991922573650
+      Molly_004_FruitVendor_18: 3865084974040284328
+      Molly_004_FruitVendor_19: 8947056570633284824
+      Molly_004_FruitVendor_2: 3271725285956879151
+      Molly_004_FruitVendor_20: -3349744278822193105
+      Molly_004_FruitVendor_21: -6206698891747378586
+      Molly_004_FruitVendor_22: 6769096527754191275
+      Molly_004_FruitVendor_23: 4544191014854184923
+      Molly_004_FruitVendor_3: 8258886061738919446
+      Molly_004_FruitVendor_4: -7141958126146486621
+      Molly_004_FruitVendor_5: 4335995435595089011
+      Molly_004_FruitVendor_6: 3408181134808706645
+      Molly_004_FruitVendor_7: 2442874612895863998
+      Molly_004_FruitVendor_8: 7031672679948758192
+      Molly_004_FruitVendor_9: -6297522520947330997
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: c59070172c10c2a42aefbf5850d7d7b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8866460141661916522
+    second: Molly_003_Shepherd_0
+  - first:
+      213: -7029148467485210943
+    second: Molly_003_Shepherd_1
+  - first:
+      213: -228219707018990733
+    second: Molly_003_Shepherd_2
+  - first:
+      213: -212506701996081991
+    second: Molly_003_Shepherd_3
+  - first:
+      213: 6682703225734902271
+    second: Molly_003_Shepherd_4
+  - first:
+      213: 7648432406699221595
+    second: Molly_003_Shepherd_5
+  - first:
+      213: 8073776386094594091
+    second: Molly_003_Shepherd_6
+  - first:
+      213: 8282974903569338301
+    second: Molly_003_Shepherd_7
+  - first:
+      213: -5809576195677683290
+    second: Molly_003_Shepherd_8
+  - first:
+      213: -4538260358233044264
+    second: Molly_003_Shepherd_9
+  - first:
+      213: -4258564471512272897
+    second: Molly_003_Shepherd_10
+  - first:
+      213: -5924154901073656051
+    second: Molly_003_Shepherd_11
+  - first:
+      213: -4950821138324010606
+    second: Molly_003_Shepherd_12
+  - first:
+      213: -6504196866268330266
+    second: Molly_003_Shepherd_13
+  - first:
+      213: 4790681788202812241
+    second: Molly_003_Shepherd_14
+  - first:
+      213: 530550588918566124
+    second: Molly_003_Shepherd_15
+  - first:
+      213: 373901203069993848
+    second: Molly_003_Shepherd_16
+  - first:
+      213: -3908499422594234729
+    second: Molly_003_Shepherd_17
+  - first:
+      213: 3109330332932952313
+    second: Molly_003_Shepherd_18
+  - first:
+      213: -8244009666307081700
+    second: Molly_003_Shepherd_19
+  - first:
+      213: -2070999325964241165
+    second: Molly_003_Shepherd_20
+  - first:
+      213: 3515911812015476454
+    second: Molly_003_Shepherd_21
+  - first:
+      213: 7341123086561274094
+    second: Molly_003_Shepherd_22
+  - first:
+      213: -5949441025092222844
+    second: Molly_003_Shepherd_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d0be6b58efb0b70800000000000000
+      internalID: 8866460141661916522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6001af5b2737e90800000000000000
+      internalID: -7029148467485210943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ba368b26335dcf0800000000000000
+      internalID: -228219707018990733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_3
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc322bc7460d0df0800000000000000
+      internalID: -212506701996081991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_4
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff139456d2bbdbc50800000000000000
+      internalID: 6682703225734902271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_5
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52a4e130c0b42a60800000000000000
+      internalID: 7648432406699221595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_6
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 816
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28fa11b8d0db0070800000000000000
+      internalID: 8073776386094594091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfc9ba2ac903f270800000000000000
+      internalID: 8282974903569338301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a101110b3d306fa0800000000000000
+      internalID: -5809576195677683290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da4849bf3cd401c0800000000000000
+      internalID: -4538260358233044264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_10
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff696e0d2a86e4c0800000000000000
+      internalID: -4258564471512272897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_11
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d078d17418c29cda0800000000000000
+      internalID: -5924154901073656051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_12
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299c3bfb7662b4bb0800000000000000
+      internalID: -4950821138324010606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_13
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 544
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60edc29637cb5a0800000000000000
+      internalID: -6504196866268330266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15303c944bbeb7240800000000000000
+      internalID: 4790681788202812241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec8ddb13f4ec5700800000000000000
+      internalID: 530550588918566124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_16
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8730416c92d503500800000000000000
+      internalID: 373901203069993848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7968377bb7832c9c0800000000000000
+      internalID: -3908499422594234729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_18
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0d0dfb67f862b20800000000000000
+      internalID: 3109330332932952313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_19
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a31ea13e4679d80800000000000000
+      internalID: -8244009666307081700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_20
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 272
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6f3dde5155243e0800000000000000
+      internalID: -2070999325964241165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee48c83a270bc030800000000000000
+      internalID: 3515911812015476454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee867e26d88e0e560800000000000000
+      internalID: 7341123086561274094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_003_Shepherd_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 294
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4800e3fb8e65f6da0800000000000000
+      internalID: -5949441025092222844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8230ef29f1c26114fa4df4295261c64d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":294.0,"y":262.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":0.0,"y":10.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Molly_003_Shepherd_0: 8866460141661916522
+      Molly_003_Shepherd_1: -7029148467485210943
+      Molly_003_Shepherd_10: -4258564471512272897
+      Molly_003_Shepherd_11: -5924154901073656051
+      Molly_003_Shepherd_12: -4950821138324010606
+      Molly_003_Shepherd_13: -6504196866268330266
+      Molly_003_Shepherd_14: 4790681788202812241
+      Molly_003_Shepherd_15: 530550588918566124
+      Molly_003_Shepherd_16: 373901203069993848
+      Molly_003_Shepherd_17: -3908499422594234729
+      Molly_003_Shepherd_18: 3109330332932952313
+      Molly_003_Shepherd_19: -8244009666307081700
+      Molly_003_Shepherd_2: -228219707018990733
+      Molly_003_Shepherd_20: -2070999325964241165
+      Molly_003_Shepherd_21: 3515911812015476454
+      Molly_003_Shepherd_22: 7341123086561274094
+      Molly_003_Shepherd_23: -5949441025092222844
+      Molly_003_Shepherd_3: -212506701996081991
+      Molly_003_Shepherd_4: 6682703225734902271
+      Molly_003_Shepherd_5: 7648432406699221595
+      Molly_003_Shepherd_6: 8073776386094594091
+      Molly_003_Shepherd_7: 8282974903569338301
+      Molly_003_Shepherd_8: -5809576195677683290
+      Molly_003_Shepherd_9: -4538260358233044264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

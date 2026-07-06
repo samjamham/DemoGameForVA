@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: a9d84ebe1ecc4c344b2a398334eef223
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6159330868544475385
+    second: Molly_002_Guard_0
+  - first:
+      213: 5008966301357157442
+    second: Molly_002_Guard_1
+  - first:
+      213: 6529144777151337443
+    second: Molly_002_Guard_2
+  - first:
+      213: -5870611593282289456
+    second: Molly_002_Guard_3
+  - first:
+      213: -4691275145157567719
+    second: Molly_002_Guard_4
+  - first:
+      213: 1111065030263408073
+    second: Molly_002_Guard_5
+  - first:
+      213: 2020441761023602375
+    second: Molly_002_Guard_6
+  - first:
+      213: 3679003180176339019
+    second: Molly_002_Guard_7
+  - first:
+      213: -5971394021129656870
+    second: Molly_002_Guard_8
+  - first:
+      213: 3797328259084384596
+    second: Molly_002_Guard_9
+  - first:
+      213: -3499369393632752970
+    second: Molly_002_Guard_10
+  - first:
+      213: -7424655564516509405
+    second: Molly_002_Guard_11
+  - first:
+      213: 8506933584906406399
+    second: Molly_002_Guard_12
+  - first:
+      213: -8991514730723750000
+    second: Molly_002_Guard_13
+  - first:
+      213: -5122065919687729056
+    second: Molly_002_Guard_14
+  - first:
+      213: -2567313105928251449
+    second: Molly_002_Guard_15
+  - first:
+      213: 1393015715470088529
+    second: Molly_002_Guard_16
+  - first:
+      213: 6222549119872939176
+    second: Molly_002_Guard_17
+  - first:
+      213: 7042257637750382548
+    second: Molly_002_Guard_18
+  - first:
+      213: 8203635091038955363
+    second: Molly_002_Guard_19
+  - first:
+      213: -8877082426174637812
+    second: Molly_002_Guard_20
+  - first:
+      213: 739193618401529877
+    second: Molly_002_Guard_21
+  - first:
+      213: -816719768844342850
+    second: Molly_002_Guard_22
+  - first:
+      213: 6678772994058263009
+    second: Molly_002_Guard_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Molly_002_Guard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fee466539a58aa0800000000000000
+      internalID: -6159330868544475385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cab4cff4c638540800000000000000
+      internalID: 5008966301357157442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3d339f49e2c9a50800000000000000
+      internalID: 6529144777151337443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d08e181cd5678ea0800000000000000
+      internalID: -5870611593282289456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b93456c1e35eeb0800000000000000
+      internalID: -4691275145157567719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5853322cb4b6f00800000000000000
+      internalID: 1111065030263408073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_6
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 900
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce2d2fa31d0a0c10800000000000000
+      internalID: 2020441761023602375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4071f176e17e0330800000000000000
+      internalID: 3679003180176339019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_8
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ecac86c8512da0800000000000000
+      internalID: -5971394021129656870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_9
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459f64abee1d2b430800000000000000
+      internalID: 3797328259084384596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba45a2b31ebf6fc0800000000000000
+      internalID: -3499369393632752970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_11
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329bd510a1356f890800000000000000
+      internalID: -7424655564516509405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_12
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9cf281603be0670800000000000000
+      internalID: 8506933584906406399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_13
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 600
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fc482ddf8b73380800000000000000
+      internalID: -8991514730723750000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060e0e41f24cae8b0800000000000000
+      internalID: -5122065919687729056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_15
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c711f515521f5cd0800000000000000
+      internalID: -2567313105928251449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_16
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1599127a96cf45310800000000000000
+      internalID: 1393015715470088529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4327fb47fea5650800000000000000
+      internalID: 6222549119872939176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_18
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df94e292002bb160800000000000000
+      internalID: 7042257637750382548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_19
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3676e4c86aa29d170800000000000000
+      internalID: 8203635091038955363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_20
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 300
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c097ff1f0944ec480800000000000000
+      internalID: -8877082426174637812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101f05fda4224a00800000000000000
+      internalID: 739193618401529877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb96ef882bd6aa4f0800000000000000
+      internalID: -816719768844342850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_002_Guard_23
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9905607a4cfac50800000000000000
+      internalID: 6678772994058263009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a7ed5e0f4ca7eb349a584eedb60fbf58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":362.0,"y":290.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":0.0,"y":10.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Molly_002_Guard_0: -6159330868544475385
+      Molly_002_Guard_1: 5008966301357157442
+      Molly_002_Guard_10: -3499369393632752970
+      Molly_002_Guard_11: -7424655564516509405
+      Molly_002_Guard_12: 8506933584906406399
+      Molly_002_Guard_13: -8991514730723750000
+      Molly_002_Guard_14: -5122065919687729056
+      Molly_002_Guard_15: -2567313105928251449
+      Molly_002_Guard_16: 1393015715470088529
+      Molly_002_Guard_17: 6222549119872939176
+      Molly_002_Guard_18: 7042257637750382548
+      Molly_002_Guard_19: 8203635091038955363
+      Molly_002_Guard_2: 6529144777151337443
+      Molly_002_Guard_20: -8877082426174637812
+      Molly_002_Guard_21: 739193618401529877
+      Molly_002_Guard_22: -816719768844342850
+      Molly_002_Guard_23: 6678772994058263009
+      Molly_002_Guard_24: -659263091
+      Molly_002_Guard_3: -5870611593282289456
+      Molly_002_Guard_4: -4691275145157567719
+      Molly_002_Guard_5: 1111065030263408073
+      Molly_002_Guard_6: 2020441761023602375
+      Molly_002_Guard_7: 3679003180176339019
+      Molly_002_Guard_8: -5971394021129656870
+      Molly_002_Guard_9: 3797328259084384596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

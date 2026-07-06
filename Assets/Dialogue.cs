@@ -15,6 +15,7 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public VerticalLayoutGroup buttonsLayout;
+    public GameObject PortraitComponent;
     public GameObject ButtonPrefab;
     public DialogueTree[] lines;
     public int NPCID;
@@ -40,6 +41,7 @@ public class Dialogue : MonoBehaviour
     {
         gameObject.SetActive(true);
         textComponent.text = string.Empty;
+        PortraitComponent.GetComponent<Animator>().SetInteger("NPCID", NPCID);
         myIndex = 0;
         NextLine(index);
         InputSystem.actions.Disable();

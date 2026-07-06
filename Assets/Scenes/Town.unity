@@ -1417,9 +1417,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4130943353226986175, guid: 0066436d926187d449708f8477c842fd, type: 3}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2828,6 +2828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   textComponent: {fileID: 1435729673}
   buttonsLayout: {fileID: 72038118}
+  PortraitComponent: {fileID: 983874326}
   ButtonPrefab: {fileID: 4345306257052525285, guid: 34ddffd673b2ce14aac5ce12984dde42, type: 3}
   lines:
   - Line: "You! Yes, you. Don\u2019t pretend you can\u2019t hear me. I have a job

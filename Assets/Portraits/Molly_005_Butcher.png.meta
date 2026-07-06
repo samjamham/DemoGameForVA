@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 9e72f36b5cb334a40af4c92e2f4922da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5386654590152207477
+    second: Molly_005_Butcher_0
+  - first:
+      213: -9066663256847821386
+    second: Molly_005_Butcher_1
+  - first:
+      213: -2331654610533599734
+    second: Molly_005_Butcher_2
+  - first:
+      213: 1758963097881744884
+    second: Molly_005_Butcher_3
+  - first:
+      213: 5991340745234356466
+    second: Molly_005_Butcher_4
+  - first:
+      213: 6310450882267205796
+    second: Molly_005_Butcher_5
+  - first:
+      213: -6422961978240307598
+    second: Molly_005_Butcher_6
+  - first:
+      213: -1246216638768955409
+    second: Molly_005_Butcher_7
+  - first:
+      213: -2941631935024318608
+    second: Molly_005_Butcher_8
+  - first:
+      213: -6814200099934957096
+    second: Molly_005_Butcher_9
+  - first:
+      213: 7555445809708418001
+    second: Molly_005_Butcher_10
+  - first:
+      213: -9095960687646699140
+    second: Molly_005_Butcher_11
+  - first:
+      213: 8640065156892655711
+    second: Molly_005_Butcher_12
+  - first:
+      213: -7978333878371209041
+    second: Molly_005_Butcher_13
+  - first:
+      213: -7053913074162888154
+    second: Molly_005_Butcher_14
+  - first:
+      213: 7635843325682650882
+    second: Molly_005_Butcher_15
+  - first:
+      213: 6460438970043361396
+    second: Molly_005_Butcher_16
+  - first:
+      213: -3097153949236691561
+    second: Molly_005_Butcher_17
+  - first:
+      213: -4156593830934250262
+    second: Molly_005_Butcher_18
+  - first:
+      213: 1088146702190583875
+    second: Molly_005_Butcher_19
+  - first:
+      213: -3752915397948795808
+    second: Molly_005_Butcher_20
+  - first:
+      213: 5989420365315081106
+    second: Molly_005_Butcher_21
+  - first:
+      213: 5277487722198936881
+    second: Molly_005_Butcher_22
+  - first:
+      213: 6099177665211568625
+    second: Molly_005_Butcher_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Molly_005_Butcher_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b831042a032ce35b0800000000000000
+      internalID: -5386654590152207477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5df7d1ecdbc2280800000000000000
+      internalID: -9066663256847821386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a063e304c7c44afd0800000000000000
+      internalID: -2331654610533599734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_3
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5134e3e97196810800000000000000
+      internalID: 1758963097881744884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_4
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f894001aa4852350800000000000000
+      internalID: 5991340745234356466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_5
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0561aa4a9339750800000000000000
+      internalID: 6310450882267205796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_6
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 876
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e65217c1e0dd6a0800000000000000
+      internalID: -6422961978240307598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefbefcd19c84bee0800000000000000
+      internalID: -1246216638768955409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0773eec27593d27d0800000000000000
+      internalID: -2941631935024318608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d112febc191f61a0800000000000000
+      internalID: -6814200099934957096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_10
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d34267fee55ad860800000000000000
+      internalID: 7555445809708418001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_11
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7196e172f7a4c180800000000000000
+      internalID: -9095960687646699140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_12
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5001d0bb7da7e770800000000000000
+      internalID: 8640065156892655711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_13
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 584
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa03830db93474190800000000000000
+      internalID: -7978333878371209041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622990aae677b1e90800000000000000
+      internalID: -7053913074162888154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f0adb5c07f7f960800000000000000
+      internalID: 7635843325682650882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478668ea30718a950800000000000000
+      internalID: 6460438970043361396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_17
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d7c0184e2b405d0800000000000000
+      internalID: -3097153949236691561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_18
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec759feeefc056c0800000000000000
+      internalID: -4156593830934250262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_19
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340259f09afd91f00800000000000000
+      internalID: 1088146702190583875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_20
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 292
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0641b215457faebc0800000000000000
+      internalID: -3752915397948795808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2938815c612be1350800000000000000
+      internalID: 5989420365315081106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d272c3f176d3940800000000000000
+      internalID: 5277487722198936881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Molly_005_Butcher_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 296
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f19eec85c1a4a450800000000000000
+      internalID: 6099177665211568625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d5b14af061ea1941b56c865edd70913
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":296.0,"y":282.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":0.0,"y":10.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Molly_005_Butcher_0: -5386654590152207477
+      Molly_005_Butcher_1: -9066663256847821386
+      Molly_005_Butcher_10: 7555445809708418001
+      Molly_005_Butcher_11: -9095960687646699140
+      Molly_005_Butcher_12: 8640065156892655711
+      Molly_005_Butcher_13: -7978333878371209041
+      Molly_005_Butcher_14: -7053913074162888154
+      Molly_005_Butcher_15: 7635843325682650882
+      Molly_005_Butcher_16: 6460438970043361396
+      Molly_005_Butcher_17: -3097153949236691561
+      Molly_005_Butcher_18: -4156593830934250262
+      Molly_005_Butcher_19: 1088146702190583875
+      Molly_005_Butcher_2: -2331654610533599734
+      Molly_005_Butcher_20: -3752915397948795808
+      Molly_005_Butcher_21: 5989420365315081106
+      Molly_005_Butcher_22: 5277487722198936881
+      Molly_005_Butcher_23: 6099177665211568625
+      Molly_005_Butcher_3: 1758963097881744884
+      Molly_005_Butcher_4: 5991340745234356466
+      Molly_005_Butcher_5: 6310450882267205796
+      Molly_005_Butcher_6: -6422961978240307598
+      Molly_005_Butcher_7: -1246216638768955409
+      Molly_005_Butcher_8: -2941631935024318608
+      Molly_005_Butcher_9: -6814200099934957096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
