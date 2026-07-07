@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public string[] AudioClipsHeard { get; private set; }
     public string[] DialogueLineSeen { get; private set; }
 
+    public GameObject DialogBox;
+
 
     private void Awake()
     {

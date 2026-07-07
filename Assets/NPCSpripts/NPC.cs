@@ -11,9 +11,9 @@ public class NPC : MonoBehaviour, Iinteractable
     [SerializeField] protected int ID;
     protected GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
-        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+        FindGameManager();
     }
 
     // Update is called once per frame
@@ -33,5 +33,9 @@ public class NPC : MonoBehaviour, Iinteractable
         Dialogbox.GetComponent<Dialogue>().NPCID = ID;
         Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
         return;
+    }
+    protected void FindGameManager()
+    {
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
     }
 }

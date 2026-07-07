@@ -8,6 +8,8 @@ public class Teleport : MonoBehaviour, Iinteractable
     private bool CanInteract;
     [SerializeField]
     private string DestinationName;
+    [SerializeField]
+    private Vector2 DestinationVector;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,13 +24,20 @@ public class Teleport : MonoBehaviour, Iinteractable
     public bool canInteract()
     {
         return CanInteract;
-        throw new System.NotImplementedException();
     }
 
     public void interact()
     {
+        //Load new area
         SceneManager.LoadScene(DestinationName);
+
+        //Move the player character to the right XY pos
+        Vector2 Dest;
+        if (DestinationVector == null)
+            Dest = Vector2.zero;
+        else
+            Dest = DestinationVector;
+        GameObject.FindWithTag("Player").transform.position = new Vector2(Dest.x, Dest.y);
         return;
-        throw new System.NotImplementedException();
     }
 }

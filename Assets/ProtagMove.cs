@@ -6,12 +6,13 @@ public class ProtagMove : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     InputAction moveAction;
-    [SerializeField]
     Rigidbody2D MyRB;
 
 
     void Start()
     {
+        DontDestroyOnLoad(this);
+        MyRB = gameObject.GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
     }
 

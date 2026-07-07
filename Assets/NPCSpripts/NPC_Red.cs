@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class NPC_Red : NPC
 {
+    void Start()
+    {
+        base.Start();
+        Dialogbox = gameManager.GetComponent<GameManager>().DialogBox;
+    }
     public override void interact()
     {
         Dialogbox.GetComponent<Dialogue>().NPCID = ID;
