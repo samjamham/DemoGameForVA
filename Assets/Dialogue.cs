@@ -29,10 +29,6 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
-        //TODO move vvvv
-        NPCID = 10;
-        StartDialogue(0);
-        //TODO move ^^^^
     }
 
     // Display the DialoguePanel and refresh back to clear 
@@ -63,7 +59,8 @@ public class Dialogue : MonoBehaviour
         {
             gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString(), textComponent.text);
             VLPlayer.StopClip();
-            NextLine (i);
+            if (!IsLastLine())
+                NextLine(i);
 
         }
         // Line of text has not finished typing
@@ -74,17 +71,19 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void NextLine(int i)
-    {
-        // The current line of text is not an end line (Terminator / end of array)
-        if (!(myIndex < lines.Length - 1 && !lines[myIndex].Terminator))
+    bool IsLastLine() // The current line of text is an end line (End of array / Terminator )
+    {        
+        if (myIndex >= lines.Length - 1 || lines[myIndex].Terminator)
         {
             myIndex = 0;
             gameObject.SetActive(false);
             InputSystem.actions.Enable();
-            return;            
+            return true;
         }
-
+        return false;
+    }
+    void NextLine(int i)
+    { 
         myIndex = i;
         // Clear the panel and remove any buttons
         textComponent.text = string.Empty;
@@ -106,10 +105,10 @@ public class Dialogue : MonoBehaviour
         {
             //create a button for each option
             int k = 0;
-            foreach (int j in lines[myIndex].NextLines)
+            foreach (Choises j in lines[myIndex].Choises)
             {
-                string Text = lines[myIndex].Choises[k++];
-                createChoiceButtons(Text, j);
+                string Text = lines[myIndex].Choises[k++].Response;
+                createChoiceButtons(Text, j.NextLineID);
             }
         }
         return;

@@ -1,16 +1,15 @@
 using UnityEngine;
 
-public class NPC_Red : NPC
+public class NPC_Blue : NPCBase
 {
     void Start()
     {
-        base.Start();
-        Dialogbox = gameManager.GetComponent<GameManager>().DialogBox;
+        Setup();
     }
     public override void interact()
     {
-        Dialogbox.GetComponent<Dialogue>().NPCID = ID;
-        Dialogbox.GetComponent<Dialogue>().lines = MyLines;
+        setUpDialogBox();
+
         if (!gameManager.GetHeardClip("11_1"))
         {
             Dialogbox.GetComponent<Dialogue>().StartDialogue(0);

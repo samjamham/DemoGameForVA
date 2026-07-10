@@ -53,5 +53,17 @@ public class GameManager : MonoBehaviour
                 return true;
         }
         return false;
+
+    }public bool GetHeardClip(params string[] IDsin)
+    {
+        foreach (string myIDs in AudioClipsHeard)
+        {
+            foreach (string IDin in IDsin)
+            {
+                if (IDin == myIDs)
+                    return true;
+            }
+        }
+        return false;
     }
 }
