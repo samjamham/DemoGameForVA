@@ -1196,39 +1196,57 @@ MonoBehaviour:
   MyLines:
   - Line: "Good mornin\u2019 sunshine. You awright? Beeeyu-iful day we\u2019re avvin.
       Bit warm. Could do wiv somefin refreshin\u2026 "
-    Terminator: 1
-    Choises: []
-  - Line: BYE
-    Terminator: 1
-    Choises: []
-  - Line: 
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Anyways, wot can I get ya? I got some lamb pie I made earlier that\u2019s
+      bloody good. I\u2019ll do ya a deal if ya like.  "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "O-oh\u2026 that\u2019s nice. She\u2019s nice, aint she? Good lady. Siiiiiip.
+      Oh, mango too. My favourite. I actually made an extra special pie, I wanted
+      to give it to her but\u2026 "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "I\u2019m a bit shy. She sold me some lovely potatoes the uvva day, I put
+      em in \u2018ere. I wonder if\u2026 Nah. I mean, if you\u2019d be willin\u2019,
+      could you get this to her?  "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Wait, are you pulling my leg?? For real?? That\u2019s\u2026 bloody nora\u2026
+      I need to get this pie to her asap! I already wrote a note to go wiv it. I\u2019m
+      right sentimental when I want to be.  "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Don\u2019t read it! Thank you, mate. I really appreciate it. She\u2019s
+      such a sweetie. "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Jovially, boisterously Really mate? You\u2019d be doin\u2019 me a proper
+      solid, absolute legend! Here ya go, I wrapped it up special for her.  "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "No worries pal, I\u2019ll\u2026 I\u2019ll get it to her myself after work.
+      Phew. Bit nervous to be honest. You\u2019re calming me down a bit though. Here,
+      take a pie on the house.  "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Bloody hell, wot\u2019s that little bugger done now? I know I\u2019m not
+      \u2018round all the time, bein a single mom an\u2019 all, but I wish he\u2019d
+      be a little bit more considerate.   "
     Terminator: 0
     Choises: []
-  - Line: 
+  - Line: "Runnin\u2019 with those other two does him no good, always trying to prove
+      himself. Did you say anyfin\u2019?"
+    Terminator: 0
+    Choises: []
+  - Line: "Sigh Fanks. So embarrassin\u2019. I\u2019ll tryn\u2019 do better. I jus\u2019
+      want my kid to be good, yanno? Have a good influence. I fink they\u2019re \u2018angin
+      round the fruit vendor a lot. Maybe she\u2019ll be a good influence. "
+    Terminator: 0
+    Choises: []
+  - Line: "Sigh Fanks. It\u2019s important for him to \u2018ear it from me, I oughtta
+      be more present so he can learn to be a good boy. Luckily I think they hang
+      out near the fruit vendor. I hope she rubs off on them\u2026 "
     Terminator: 0
     Choises: []
   ID: 14

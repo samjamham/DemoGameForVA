@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NPC_Blue : NPCBase
+public class NPC_Guard: NPCBase
 {
     void Start()
     {
@@ -10,6 +10,6 @@ public class NPC_Blue : NPCBase
     {
         setUpDialogBox();
         Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
-        return;        
+        return;
     }
 }

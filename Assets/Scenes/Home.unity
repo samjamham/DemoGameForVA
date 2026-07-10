@@ -961,9 +961,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1311b4366ef453e469ce2e0c22d8f402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Blue
-  CanInteract: 0
-  MyLines: []
-  ID: 0
+  CanInteract: 1
+  MyLines:
+  - Line: I'm an old Lady!
+    Terminator: 0
+    Choises: []
+  ID: 2
 --- !u!1 &509275112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,7 +3742,7 @@ MonoBehaviour:
   - Line: Have you found my cat yet?
     Terminator: 1
     Choises: []
-  ID: 11
+  ID: 1
 --- !u!1 &2112925327
 GameObject:
   m_ObjectHideFlags: 0
