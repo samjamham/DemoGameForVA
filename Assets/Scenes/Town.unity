@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 242161831}
   m_Layer: 0
   m_Name: Transition - Field
-  m_TagString: NPC
+  m_TagString: Transition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 1068883542}
   m_Layer: 0
   m_Name: Transition - Castle
-  m_TagString: NPC
+  m_TagString: Transition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2010,7 +2010,7 @@ GameObject:
   - component: {fileID: 2087157165}
   m_Layer: 0
   m_Name: Transition - Woods
-  m_TagString: NPC
+  m_TagString: Transition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -8,6 +8,7 @@ using dialoguetree;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Unity.VisualScripting;
+using static UnityEngine.GraphicsBuffer;
 
 
 public class Dialogue : MonoBehaviour
@@ -54,21 +55,44 @@ public class Dialogue : MonoBehaviour
 
     public void NextButtonPressed(int i)
     {
-        // Line of text has finnished typing
-        if (textComponent.text == lines[myIndex].Line)
-        {
-            gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString(), textComponent.text);
-            VLPlayer.StopClip();
-            if (!IsLastLine())
-                NextLine(i);
+        if (FinishTyping())
+            return;
 
+        // Line of text has finnished typing
+        gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString(), textComponent.text);
+        VLPlayer.StopClip();
+
+        foreach (GameObject NPC in GameObject.FindGameObjectsWithTag("NPC"))
+        {
+            if (NPC.GetComponent<NPCBase>().getID() == NPCID)
+            {
+                if (lines[myIndex].Choises.Length > 0)
+                {
+                    if (NPC.GetComponent<NPCBase>().SwapChecker(myIndex, i))
+                        return;
+                }
+                if (NPC.GetComponent<NPCBase>().SwapChecker(myIndex))
+                    return;
+            }
         }
-        // Line of text has not finished typing
-        else
+
+        if (!IsLastLine())
+        {
+            NextLine(i);
+            return;
+        }
+        return;
+    }
+    private bool FinishTyping()
+    {
+        if (textComponent.text != lines[myIndex].Line)
         {
             StopAllCoroutines();
             textComponent.text = lines[myIndex].Line;
+            return true;
         }
+
+        return false;
     }
 
     bool IsLastLine() // The current line of text is an end line (End of array / Terminator )
@@ -99,7 +123,7 @@ public class Dialogue : MonoBehaviour
         if (lines[myIndex].Choises.Length == 0) //default option
         {
             string Text = lines[myIndex].Terminator || !(myIndex < lines.Length - 1) ? "Close" : "Next";
-            createChoiceButtons(Text, myIndex + 1);
+            createChoiceButton(Text, myIndex + 1);
         }
         else
         {
@@ -108,17 +132,17 @@ public class Dialogue : MonoBehaviour
             foreach (Choises j in lines[myIndex].Choises)
             {
                 string Text = lines[myIndex].Choises[k++].Response;
-                createChoiceButtons(Text, j.NextLineID);
+                createChoiceButton(Text, j.NextLineID);
             }
         }
         return;
     }
 
-    void createChoiceButtons(string text, int index)
+    void createChoiceButton(string text, int index)
     {
         GameObject choiseButton = Instantiate(ButtonPrefab, buttonsLayout.transform); //create button from a prefab as a child of the layout group
-        choiseButton.GetComponentInChildren<TMP_Text>().text = text;
+        choiseButton.GetComponentInChildren<TMP_Text>().text = text;        
+        choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index)); 
         //choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => gameManager.AddHeardClip(NPCID.ToString() + "_" + myIndex.ToString()));
-        choiseButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => this.NextButtonPressed(index));
     }
 }

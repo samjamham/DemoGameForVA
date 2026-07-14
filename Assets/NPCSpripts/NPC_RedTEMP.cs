@@ -9,16 +9,26 @@ public class NPC_Red : NPCBase
     public override void interact()
     {
         setUpDialogBox();
-
-        if (!gameManager.GetHeardClip("11_1"))
-        {
-            Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
-        }
-        else
-        {
-            Dialogbox.GetComponent<Dialogue>().StartDialogue(3);
-        }
+        Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
         return;
         
+    }
+
+    public override bool SwapChecker(int index, int choise)
+    {
+        if (index == 1)
+        {
+            if (choise == 1)
+            {
+                FindNPCByID(22).DialogueSwap(0);
+                return true;
+            }
+            if (choise == 2)
+            {
+                FindNPCByID(23).DialogueSwap(0);
+                return true;
+            }
+        }
+        return false;
     }
 }

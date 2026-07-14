@@ -8,6 +8,7 @@ TagManager:
   - GameManager
   - VoiceReplayContent
   - DialogBox
+  - Transition
   layers:
   - Default
   - TransparentFX

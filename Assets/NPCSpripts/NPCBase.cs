@@ -26,6 +26,12 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
         return CanInteract;
     }
 
+    public int getID()
+    {
+        return ID;
+    }
+
+
     virtual public void interact()
     {
         Debug.Log($"Blleeehhhh im an {this.name}!");
@@ -38,6 +44,32 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
     {
         Dialogbox.GetComponent<Dialogue>().lines = MyLines;
         Dialogbox.GetComponent<Dialogue>().NPCID = ID;
+    }
+
+    virtual public bool SwapChecker(int CurrentIndex)
+    {
+        return false;
+    }
+    virtual public bool SwapChecker(int CurrentIndex, int Choise)
+    {
+        return false;
+    }
+
+    public void DialogueSwap(int Index) 
+    {
+        setUpDialogBox();
+        Dialogbox.GetComponent<Dialogue>().StartDialogue(Index);
+        return;
+    }
+
+    protected NPCBase FindNPCByID(int ID)
+    {
+        foreach (GameObject NPC in GameObject.FindGameObjectsWithTag("NPC"))
+        {
+            if (NPC.GetComponent<NPCBase>().getID() == ID)
+                return NPC.GetComponent<NPCBase>();
+        }
+        return null;
     }
    
 }
