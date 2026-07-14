@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Butcher
+  m_text: Witch
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.25
+  m_fontSize: 0.35
   m_fontSizeBase: 0.4
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -634,34 +634,46 @@ MonoBehaviour:
       I just think it\u2019s neat. But it seems like you\u2019ve been involved in
       some matchmaking today. Or not. You do you, boo.  "
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: Give me the potion.
+      NextLineID: 3
+    - Response: You live here alone?
+      NextLineID: 6
   - Line: 'Jeez, yeah. Straight to the point. Yawn. Just take the magic juice and
       get out of my cave, dude. Take this to the queen and tell her to take it when
       the pain starts acting up.  '
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: What is this stuff?
+      NextLineID: 4
+    - Response: Gotcha. Neat hat, btw.
+      NextLineID: 5
   - Line: "Ibuprofen. Miss Ma\u2019am\u2019s old rickety bones are turning to dust.
       Snicker Dumb old lady. She\u2019ll be in her castle up north.  "
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: 'I know right. I thrifted it from out of town. Traded for 5 potions of
       ibuprofen. Absolute steal. Go north to see her royal majesty. Careful of her
       idiot guard. '
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: "Yeah. And? I like my solitude more than hanging out with anyone else.
       People don\u2019t like, understand my je ne sais quoi. I prefer to watch and
       play around. "
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: Fair enough. Enjoy your cave and crystals.
+      NextLineID: 7
+    - Response: Play around???
+      NextLineID: 8
   - Line: "TY. Go north. And stay safe giving the queenie her ibuprofen potion. Don\u2019t
       wanna like, accidentally anger her guard dog snicker. "
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: 'Yaaaa. Just looking at people in the reflection of this cauldron and making
       them like, fall in love. What? Everybody has hobbies. Just take the ibuprofen
       North to the old woman and leave me to my cauldron. '
-    Terminator: 0
+    Terminator: 1
     Choises: []
   ID: 15
 --- !u!50 &1133841333

@@ -303,7 +303,11 @@ MonoBehaviour:
   MyLines:
   - Line: 'STATE YOUR BUSINESS SMALL PERSON. '
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: 'Here to deliver a potion to the queen. '
+      NextLineID: 1
+    - Response: Here to talk.
+      NextLineID: 7
   - Line: "Hmm. Alright. Very good. The potion. The potion for the queen. The queen\u2019s
       potion. The potion that the queen wanted me to take from you to give to the
       queen. Hmm. Yes. I remember this. Hm."
@@ -311,14 +315,18 @@ MonoBehaviour:
     Choises: []
   - Line: "Just in case you don\u2019t remember what the potion is, what is the potion. "
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: "It\u2019s the ibuprofen from the witch."
+      NextLineID: 3
+    - Response: "It\u2019s the POISON from the ME."
+      NextLineID: 5
   - Line: "Ah yes, for my lady\u2019s achy bo-. Her strong and powerful bones are
       of no ache nor malady. She is simply keeping it for safe keeping, in case I,
       her favourite guard, sprain my ankle. My lady is a kind and thoughtful queen."
     Terminator: 0
     Choises: []
   - Line: 'Thank you for your haste in delivery. '
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: "GUARD STANCE YOU WILL NOT POISON MY QUEEN, SVOLOCH. I SEE RIGHT THROUGH
       YOUR EVIL MIND GAMES. You cannot outsmart me! I am my lady\u2019s favourite
@@ -329,20 +337,24 @@ MonoBehaviour:
       that someone will be coming through with a potion? Perhaps you are mistaken,
       they are only one letter apart. I see. laughs, as if belittling player. Foolish.
       That is a potion. "
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: "I don\u2019t care what you have to say. I am on duty, you see. Protecting
       my queen. My smart, strong, powerful, beautiful, thoughtful, gorgeous\u2026
       Blushing, clears throat. My queen. "
     Terminator: 0
-    Choises: []
+    Choises:
+    - Response: "You\u2019re not a very good guard. You just zoned out. "
+      NextLineID: 8
+    - Response: Why does she need a guard anyway?
+      NextLineID: 10
   - Line: 'I AM THE MOST POWERFUL AND BRAVE WARRIOR IN THIS TOWN. I am also the only
       warrior in this town. Because I beat all of them. Da, with my bare hands. It
       was a blood bath. Obviously lying Which is why my queen chose me. '
     Terminator: 0
     Choises: []
   - Line: 'I will zone out at my own discretion, thank you very much. '
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: "My beautiful, wonderful, powerful, strong, smart, wise\u2026 uh. My queen
       does not require a guard of course, as she is powerful enough in her magics
@@ -351,10 +363,10 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
   - Line: Mind your business, da?
-    Terminator: 0
+    Terminator: 1
     Choises: []
   - Line: OH! My queen! Your delivery has been delivered!
-    Terminator: 0
+    Terminator: 1
     Choises: []
   ID: 11
 --- !u!1 &234687226
