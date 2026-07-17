@@ -9,6 +9,9 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Unity.VisualScripting;
 using static UnityEngine.GraphicsBuffer;
+using UnityEditor;
+using System.Data.SqlTypes;
+using System.Linq;
 
 
 public class Dialogue : MonoBehaviour
@@ -46,9 +49,27 @@ public class Dialogue : MonoBehaviour
     // Type each line letter by letter 
     IEnumerator TypeLine()
     {
-        foreach (char c in lines[myIndex].Line.ToCharArray())
+        int skips = 0;
+        //int Pos = -1;
+        foreach (var c in lines[myIndex].Line.ToCharArray().Select((value, i) => new {value, i}))
         {
-            textComponent.text += c;
+            // Dont type out rich text elements 
+            //Pos++;
+            if (skips > 0)
+            {
+                skips--;
+                continue;
+            }
+            if (c.value/*c*/ == '<')
+            {
+                int CharPos = lines[myIndex].Line.Substring(c.i/*Pos*/).IndexOf('>'); // Find the next instance of '>' after current character
+                skips = CharPos;
+                string richTextElement = lines[myIndex].Line.Substring(c.i/*Pos*/, CharPos + 1);
+                textComponent.text += richTextElement;
+                continue;
+            }
+            // Type current character then wait for a delay
+            textComponent.text += c.value/*c*/;
             yield return new WaitForSeconds(textSpeed);
         }
     }

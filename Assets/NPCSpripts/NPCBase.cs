@@ -35,8 +35,7 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
     virtual public void interact()
     {
         Debug.Log($"Blleeehhhh im an {this.name}!");
-        //setUpDialogBox();
-        //Dialogbox.GetComponent<Dialogue>().StartDialogue(0);
+        Debug.LogError($"Implement override for interact on {this.name}!");
         return;
     }
 
@@ -55,7 +54,7 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
         return false;
     }
 
-    public void DialogueSwap(int Index) 
+    virtual public void DialogueSwap(int Index) 
     {
         setUpDialogBox();
         Dialogbox.GetComponent<Dialogue>().StartDialogue(Index);
