@@ -377,6 +377,8 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
   ID: 11
+  MyFontAsset: {fileID: 0}
+  MyName: Guard
 --- !u!1 &157040913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,6 +1236,8 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
   ID: 10
+  MyFontAsset: {fileID: 0}
+  MyName: Queen
 --- !u!1 &1399848834
 GameObject:
   m_ObjectHideFlags: 0

@@ -1194,6 +1194,8 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
   ID: 18
+  MyFontAsset: {fileID: 0}
+  MyName: Excited Kid
 --- !u!1 &1030661207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +1800,8 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
   ID: 16
+  MyFontAsset: {fileID: 0}
+  MyName: Hungry Kid
 --- !u!1 &1399066775
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,6 +2009,8 @@ MonoBehaviour:
     Terminator: 0
     Choises: []
   ID: 17
+  MyFontAsset: {fileID: 0}
+  MyName: Nervous Kid
 --- !u!1 &1532275992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2391,8 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
   ID: 13
+  MyFontAsset: {fileID: 0}
+  MyName: Fruit Vendor
 --- !u!1 &1641101982
 GameObject:
   m_ObjectHideFlags: 0

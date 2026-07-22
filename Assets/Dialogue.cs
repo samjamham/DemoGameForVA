@@ -17,7 +17,8 @@ using System.Linq;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
-    public VerticalLayoutGroup buttonsLayout;
+    public TextMeshProUGUI titleComponent;
+    public HorizontalOrVerticalLayoutGroup buttonsLayout;
     public GameObject PortraitComponent;
     public GameObject ButtonPrefab;
     public DialogueTree[] lines;

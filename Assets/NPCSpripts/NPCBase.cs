@@ -1,12 +1,17 @@
 using System;
 using UnityEngine;
 using dialoguetree;
+using UnityEngine.TextCore.Text;
+using Unity.VisualScripting;
+using TMPro;
 
 public abstract class NPCBase : MonoBehaviour, Iinteractable
 {
     [SerializeField] protected bool CanInteract;    
     [SerializeField] protected DialogueTree[] MyLines;     //[SerializeField] protected string[] MyLines;
     [SerializeField] protected int ID;
+    [SerializeField] protected TMP_FontAsset MyFontAsset;
+    [SerializeField] protected string MyName;
 
     protected GameManager gameManager;
     protected GameObject Dialogbox;
@@ -19,6 +24,7 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
     {
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         Dialogbox = gameManager.GetComponent<GameManager>().DialogBox;
+
     }
 
     public bool canInteract()
@@ -43,6 +49,12 @@ public abstract class NPCBase : MonoBehaviour, Iinteractable
     {
         Dialogbox.GetComponent<Dialogue>().lines = MyLines;
         Dialogbox.GetComponent<Dialogue>().NPCID = ID;
+        Dialogbox.GetComponent<Dialogue>().titleComponent.text = MyName;
+        if (MyFontAsset != null)
+        {
+            Dialogbox.GetComponent<Dialogue>().textComponent.font = MyFontAsset;
+            Dialogbox.GetComponent<Dialogue>().titleComponent.font = MyFontAsset;
+        }
     }
 
     virtual public bool SwapChecker(int CurrentIndex)
