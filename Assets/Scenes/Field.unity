@@ -326,7 +326,7 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
   ID: 12
-  MyFontAsset: {fileID: 0}
+  MyFontAsset: {fileID: 11400000, guid: fc05a9f2d24610d4cb9924264ae7958f, type: 2}
   MyName: Shepherd
 --- !u!1 &650092977
 GameObject:

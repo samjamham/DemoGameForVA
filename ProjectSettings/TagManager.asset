@@ -9,6 +9,7 @@ TagManager:
   - VoiceReplayContent
   - DialogBox
   - Transition
+  - Portrait
   layers:
   - Default
   - TransparentFX

@@ -676,7 +676,7 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
   ID: 15
-  MyFontAsset: {fileID: 0}
+  MyFontAsset: {fileID: 11400000, guid: e553e8e2f1318dd4494d2410f046ff9a, type: 2}
   MyName: Witch
 --- !u!50 &1133841333
 Rigidbody2D:

@@ -2369,8 +2369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: 0}
-  m_SizeDelta: {x: -60, y: -20}
+  m_AnchoredPosition: {x: -17.5, y: 0}
+  m_SizeDelta: {x: -65, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257455270
 MonoBehaviour:
@@ -2394,8 +2394,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Replay Voice Lines
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52a86180eb2b3d249becc87eb4726657, type: 2}
+  m_sharedMaterial: {fileID: 503334128343968983, guid: 52a86180eb2b3d249becc87eb4726657, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2419,7 +2419,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.45
+  m_fontSize: 21.8
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3629,6 +3629,17 @@ MonoBehaviour:
   SelectionLayout: {fileID: 228002266}
   GameManager: {fileID: 884701241}
   VLPlayer: {fileID: 2112925330}
+  myPortraits:
+  - {fileID: 4130943353226986175, guid: 0066436d926187d449708f8477c842fd, type: 3}
+  - {fileID: -6159330868544475385, guid: a9d84ebe1ecc4c344b2a398334eef223, type: 3}
+  - {fileID: 8866460141661916522, guid: c59070172c10c2a42aefbf5850d7d7b8, type: 3}
+  - {fileID: -5019879285249949928, guid: 50e02709024751348a4c0afb8e35bff6, type: 3}
+  - {fileID: -5386654590152207477, guid: 9e72f36b5cb334a40af4c92e2f4922da, type: 3}
+  - {fileID: -9166438510269188822, guid: 3eee6af99dd890344b65f2446ee9a067, type: 3}
+  - {fileID: -9166438510269188822, guid: 3eee6af99dd890344b65f2446ee9a067, type: 3}
+  - {fileID: -9166438510269188822, guid: 3eee6af99dd890344b65f2446ee9a067, type: 3}
+  - {fileID: -9166438510269188822, guid: 3eee6af99dd890344b65f2446ee9a067, type: 3}
+  - {fileID: -9166438510269188822, guid: 3eee6af99dd890344b65f2446ee9a067, type: 3}
 --- !u!1 &1892936097
 GameObject:
   m_ObjectHideFlags: 0

@@ -1264,7 +1264,7 @@ MonoBehaviour:
     Terminator: 1
     Choises: []
   ID: 14
-  MyFontAsset: {fileID: 0}
+  MyFontAsset: {fileID: 11400000, guid: 59051407a8925f040bfae554b10df2f9, type: 2}
   MyName: Butcher
 --- !u!1 &1829131907
 GameObject:
